@@ -1,0 +1,184 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.contentcontainer {
+  display: flex;
+  width: 960px;
+  height: auto;
+}
+
+#logo {
+  height: 1.5rem;
+  width: auto;
+  margin: 0.5rem;
+}
+
+.contentcontainer p {
+  font-size: 1rem;
+  margin: 0.5rem 0.66rem;
+  color: white;
+}
+
+#bikepic {
+  display: flex;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#topbox {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 20rem;
+  margin-top: 9rem;
+}
+
+#topbox p {
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 0.25rem;
+}
+
+#topbox h1 {
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav li {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.whitespace {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+#topwhite {
+  display: flex;
+  justify-content: space-between;
+}
+ #topwhite2 {
+   display: flex;
+   justify-content: space-between;
+ }
+
+figure {
+  display: flex;
+  width: 30%;
+  border: 4px solid black;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+figure img {
+  height: 9rem;
+  width: inherit;
+  margin: 2rem;
+}
+
+figcaption {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: black;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+.blackwhite {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 35%;v
+}
+
+.graybox {
+  background-color: black;
+  color: white;
+}
+
+.whitebox {
+  background-color: white;
+}
+
+.whitebox p {
+  color: black;
+  margin-bottom: 4rem;
+}
+
+footer {
+  height: 5rem;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1080px) {
+  li {
+    display: none;
+  }
+
+.hidden {
+    display: flex;
+  }
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+#thermal {
+  display: none;
+}
+
+figure {
+  width: 47%;
+}
+
+}
